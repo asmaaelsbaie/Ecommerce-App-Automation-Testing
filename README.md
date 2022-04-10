@@ -7,7 +7,6 @@ Ecommerce Automation project on nopCommerce website using   Selenium, Cucumber a
 
 - 📫 How to reach me **asmaa00elsbaie@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/drive/u/0/my-drive](https://drive.google.com/drive/u/0/my-drive)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
