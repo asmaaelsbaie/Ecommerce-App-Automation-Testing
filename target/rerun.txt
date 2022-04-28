@@ -1,0 +1,2 @@
+file:src/main/resources/feature/SC01_Registration.feature:3
+file:src/main/resources/feature/SC04_Search.feature:4
