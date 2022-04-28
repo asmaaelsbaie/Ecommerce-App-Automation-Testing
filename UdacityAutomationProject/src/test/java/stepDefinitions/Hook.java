@@ -17,6 +17,7 @@ public class Hook {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
+        driver.navigate().to("https://demo.nopcommerce.com/");
     }
     @After
     public static  void user_close_the_driver() throws InterruptedException{

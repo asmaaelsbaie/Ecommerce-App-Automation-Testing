@@ -1,0 +1,10 @@
+stepDefinitions\ResetPassword.class
+Runner\testRunner.class
+stepDefinitions\CreateOrder.class
+stepDefinitions\SwitchCurrencies.class
+stepDefinitions\Registration.class
+stepDefinitions\Hook.class
+stepDefinitions\SelectDifferentCatogies.class
+stepDefinitions\Login.class
+stepDefinitions\AddDifferentProduct.class
+stepDefinitions\Search.class
