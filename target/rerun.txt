@@ -1,2 +1,5 @@
 file:src/main/resources/feature/SC01_Registration.feature:3
-file:src/main/resources/feature/SC04_Search.feature:4
+file:src/main/resources/feature/SC05_SwitchCurrencies.feature:3:8
+file:src/main/resources/feature/SC03_ResetPassword.feature:3
+file:src/main/resources/feature/SC02_Login.feature:4:11
+file:src/main/resources/feature/SC04_Search.feature:4:11
