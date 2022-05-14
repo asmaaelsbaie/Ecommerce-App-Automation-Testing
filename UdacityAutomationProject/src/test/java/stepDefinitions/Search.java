@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import Pages.SearchPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
@@ -17,17 +18,17 @@ import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
 public class Search {
-
+SearchPage searchPage ;
 
     @Given("click on search field")
     public void click_on_search_field() {
-     Hook.driver.findElement(By.id("small-searchterms")).click();
+     searchPage =Hook.homePage.clickSearch();
+
     }
 
     @When("^search with \"(.*)\" of product$")
     public void search_with_name_of_product(String productName) {
-      Hook.driver.findElement(By.id("small-searchterms")).sendKeys(productName);
-      Hook.driver.findElement(By.cssSelector("button[class=\"button-1 search-box-button\"]")).click();
+          searchPage.searchProduct(productName);
 
     }
 

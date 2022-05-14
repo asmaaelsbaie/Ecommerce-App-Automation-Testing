@@ -1,3 +1,4 @@
+@smoke
 Feature:User could reset his/her password successfully
   Scenario:  you just need to confirm that this message is displayed "Email with instructions has been sent to you."
     Given click login
